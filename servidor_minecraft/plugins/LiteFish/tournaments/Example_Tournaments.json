@@ -1,0 +1,67 @@
+{
+  "displayName": "{#FFF955}Cod hunting",
+  "description": "{#FFAE3B}Catch 3 CODs as quickly as possible!\n{#86FF55}Rewards:\n §e1 §f- §21000$\n §e2-10 §f- §2500$",
+  "descConditions": "§fConditions: ",
+  "announcementStart": [
+    "§3The cod hunt has begun!"
+  ],
+  "sounds": [],
+  "joinToTournamentButton": "§8[§6Join the tournament§8]",
+  "joinToTournamentButtonHover": "§8[§6Join the tournament§8]",
+  "announcementEnd": [
+    "§3The cod hunt has end!"
+  ],
+  "scheduled": [],
+  "winnersAnnouncement": [
+    "Winners: ",
+    "§7%pos_1%. §3%player_name% §6%result%",
+    "§7%pos_2%. §3%player_name% §6%result%",
+    "§7%pos_3%. §3%player_name% §6%result%",
+    "§7%pos_4%. §3%player_name% §6%result%",
+    "§7%pos_5%. §3%player_name% §6%result%"
+  ],
+  "time": 1000,
+  "autoJoin": false,
+  "conditions": [
+    {
+      "type": "CATCH",
+      "random": false,
+      "ids": [],
+      "materials": [
+        "COD"
+      ],
+      "count": 3,
+      "color": "BLUE",
+      "style": "SOLID",
+      "displayText": "Catch %fish% [%now_catch%/3]"
+    }
+  ],
+  "rewards": [
+    {
+      "place": "1",
+      "command": [
+        "give %player_name% minecraft:diamond 10"
+      ],
+      "rewardMessage": "You took #%position% place in the competition",
+      "sounds": [
+        "ENTITY_FIREWORK_ROCKET_LAUNCH"
+      ],
+      "particles": [
+        "CRIT"
+      ]
+    },
+    {
+      "place": "2-10",
+      "command": [
+        "give %player_name% minecraft:diamond 5"
+      ],
+      "rewardMessage": "You took #%position% place in the competition",
+      "sounds": [
+        "ENTITY_FIREWORK_ROCKET_LAUNCH"
+      ],
+      "particles": [
+        "FLAME"
+      ]
+    }
+  ]
+}

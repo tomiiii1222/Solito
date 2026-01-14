@@ -1,0 +1,11 @@
+{
+  "range": {
+    "x": 10,
+    "y": 10,
+    "z": 10
+  },
+  "catch_chance": 50.0,
+  "long_distance_speed": 0.1,
+  "middle_distance_speed": 0.05,
+  "short_distance_speed": 0.02
+}

@@ -1,0 +1,15 @@
+{
+  "garbage_weight": "§8",
+  "common_weight": "§7",
+  "uncommon_weight": "{#1EE318}",
+  "rare_weight": "{#0070DD}",
+  "epic_weight": "{#A335EE}",
+  "legendary_weight": "{#FF8000}",
+  "immortal_weight": "§4",
+  "omg_weight": "{#FFF468}",
+  "common": "{#94A4B0}",
+  "rare": "{#77DBCE}",
+  "epic": "{#61F09B}",
+  "legendary": "{#E7F617}",
+  "immortal": "{#D177DB}"
+}

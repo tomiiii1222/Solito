@@ -1,0 +1,94 @@
+{
+  "enchantsList": [
+    {
+      "key": {
+        "namespace": "minecraft",
+        "key": "unbreaking"
+      },
+      "lvl": 1,
+      "speed": 0,
+      "luckDrop": 0.0,
+      "luckRare": 0.0,
+      "durability": 25.0,
+      "healthPlayer": 0,
+      "healthFish": 0,
+      "sizeBar": 0,
+      "monsterChance": 0.0
+    },
+    {
+      "key": {
+        "namespace": "minecraft",
+        "key": "unbreaking"
+      },
+      "lvl": 2,
+      "speed": 0,
+      "luckDrop": 0.0,
+      "luckRare": 0.0,
+      "durability": 36.0,
+      "healthPlayer": 0,
+      "healthFish": 0,
+      "sizeBar": 0,
+      "monsterChance": 0.0
+    },
+    {
+      "key": {
+        "namespace": "minecraft",
+        "key": "unbreaking"
+      },
+      "lvl": 3,
+      "speed": 0,
+      "luckDrop": 0.0,
+      "luckRare": 0.0,
+      "durability": 43.0,
+      "healthPlayer": 0,
+      "healthFish": 0,
+      "sizeBar": 0,
+      "monsterChance": 0.0
+    },
+    {
+      "key": {
+        "namespace": "minecraft",
+        "key": "luck_of_the_sea"
+      },
+      "lvl": 1,
+      "speed": 0,
+      "luckDrop": 6.0,
+      "luckRare": 0.0,
+      "durability": 0.0,
+      "healthPlayer": 0,
+      "healthFish": 0,
+      "sizeBar": 0,
+      "monsterChance": 0.0
+    },
+    {
+      "key": {
+        "namespace": "minecraft",
+        "key": "luck_of_the_sea"
+      },
+      "lvl": 2,
+      "speed": 0,
+      "luckDrop": 7.0,
+      "luckRare": 0.0,
+      "durability": 0.0,
+      "healthPlayer": 0,
+      "healthFish": 0,
+      "sizeBar": 0,
+      "monsterChance": 0.0
+    },
+    {
+      "key": {
+        "namespace": "minecraft",
+        "key": "luck_of_the_sea"
+      },
+      "lvl": 3,
+      "speed": 0,
+      "luckDrop": 8.0,
+      "luckRare": 0.0,
+      "durability": 0.0,
+      "healthPlayer": 0,
+      "healthFish": 0,
+      "sizeBar": 0,
+      "monsterChance": 0.0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "enable": false,
+  "host": "localhost",
+  "port": "3306",
+  "database": "minecraft",
+  "table": "caught",
+  "user": "root",
+  "password": "1337228"
+}

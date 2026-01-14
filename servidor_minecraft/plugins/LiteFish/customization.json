@@ -1,0 +1,224 @@
+{
+  "translation": {
+    "gui.sizeBar": "Size bar",
+    "gui.luckDrop": "Rare drop",
+    "gui.randomEnchantments": "Random enchantments",
+    "gui.monsterCatch": "Attacked by Monster",
+    "gui.server_maxWeight": "Server best size",
+    "gui.back": "Back",
+    "gui.sell_action": "{#FFB47E}• L-Click §7- sell",
+    "gui.put_item": "Put item here",
+    "game.title.failCaught": "Slipped away...",
+    "gui.on": "§aON",
+    "gui.youHere": "You are here!",
+    "gui.add_world": "Add world",
+    "gui.off": "§cOFF",
+    "gui.chance": "Chance",
+    "gui.biomes": "Biomes",
+    "gui.sellMessage": "You sold items for the amount: §6%money%",
+    "gui.amount": "Amount",
+    "gui.setStatDesc": "{#FFB47E}• L-Click §7- set value\n{#FFB47E}• R-Click §7- set chance\n{#FFB47E}• Q §7- reset",
+    "gui.naturalModification": "Natural modifier",
+    "gui.server_caught": "Server caught record",
+    "gui.temperature": "Temperature",
+    "gui.night": "Night",
+    "gui.speed": "Speed",
+    "gui.category": "Category",
+    "game.title.monsterText3": "Crunch-crunch...",
+    "gui.fullMoon": "Full moon",
+    "game.title.monsterText1": "Nom-nom...",
+    "game.title.monsterText2": "Delicious~",
+    "gui.add": "Add",
+    "gui.weather": "Weather",
+    "gui.group": "Group",
+    "gui.delete": "Delete",
+    "chat.noTournaments": "No active tournaments",
+    "gui.remove": "{#FFB47E}• R-Click §7- remove",
+    "gui.healthFish": "Fish health",
+    "gui.day": "Day",
+    "game.title.lvlUp": "Loot rarity has increased to: ",
+    "gui.customDrop": "Custom drop",
+    "gui.durability": "Durability",
+    "gui.catalog": "Fishing Catalog",
+    "gui.disableDefaultCategory": "Disable mini game in Default Category",
+    "game.bait_info": "{#26C6FF}Bait: %bait_name% §7%amount%",
+    "gui.rarity.epic": "Epic",
+    "gui.price": "Price",
+    "gui.edit": "{#FFB47E}• L-Click §7- edit",
+    "gui.acceptedValue": "Values successfully accepted",
+    "gui.custom_fishing": "Custom fishing",
+    "chat.cfgUpdateErr": "Error updating config",
+    "chat.cfgUpdate": "Config successfully updated",
+    "gui.failedFish": "Total Failed",
+    "gui.maxWeight": "Maximum size",
+    "gui.additional_item": "You caught an additional item",
+    "gui.add_desc": "Additional Description",
+    "gui.next": "Next",
+    "gui.notificationNewItems": "Notification of new items",
+    "gui.enchantments": "Enchantments",
+    "gui.statistic": "Your statistics",
+    "gui.rarity.rare": "Rare",
+    "gui.rarity.immortal": "Immortal",
+    "chat.avgPrice": "Average price per catch",
+    "gui.level": "Level",
+    "chat.setTarget": "Track",
+    "gui.rarity.common": "Common",
+    "gui.sell": "Sell",
+    "gui.settings": "Settings",
+    "chat.openCatalog": "Open Catalog",
+    "gui.rarity.legendary": "Legendary",
+    "gui.timeOfDay": "Time of day",
+    "gui.randomDurability": "Random durability",
+    "gui.health": "Health",
+    "gui.rod": "Custom Rods",
+    "gui.chance_limit": "The sum of the chances should not exceed 100%",
+    "gui.thunder": "Thunder",
+    "gui.default": "Default",
+    "gui.addCountDesc": "{#FFB47E}• L-Click/R-Click §7- increase/decrease\n{#FFB47E}• Shift §7- x10\n{#FFB47E}• Q §7- write value",
+    "gui.weight_info": "§7Weight: %weight% kg",
+    "gui.bait": "Bait",
+    "gui.newFishMessage": "{#06BEFF}You have discovered a new item §7[%now_fish%§7]\n§7[%chat.openCatalog%]",
+    "gui.bigLootCatch": "Treasures Caught",
+    "gui.exp": "Experience",
+    "gui.high": "Height",
+    "chat.noPermission": "You cannot catch this",
+    "gui.region": "Add region",
+    "gui.weight": "Weight",
+    "gui.page": "Page",
+    "gui.luckRare": "Increased rarity",
+    "gui.rain": "Rain",
+    "gui.treasure": "Treasure",
+    "gui.realistic_fishing": "Realistic Fishing",
+    "game.catch_lore": "§7Caught: {#FFB47E}%player_name%\n§8%year%/%month%/%day%",
+    "gui.acceptDelete": "Confirm Deletion",
+    "gui.enterChat": "Enter value in chat",
+    "gui.goodFish": "Total Caught",
+    "gui.invalidValue": "Invalid data entered",
+    "game.noDrop": "sendTitle(Nothing is caught)",
+    "gui.setDropEntityFromEgg": "Spawn entity from egg",
+    "gui.setMiniGame": "Mini Game",
+    "gui.example": "Example",
+    "gui.monster": "Monster",
+    "gui.rod_desk": "⁑ Different fishing rods\n  §7may have effects",
+    "gui.healthPlayer": "Player health",
+    "gui.minWeight": "Minimum size"
+  },
+  "guis": {
+    "catalogGui": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "%gui.catalog%: %player_name%",
+      "icons": [
+        {
+          "id": "2",
+          "displayName": "{#41FFE9}%gui.statistic%",
+          "lore": [
+            "{#21BBFF}%gui.level%: %rank%",
+            "{#21BBFF}%gui.exp%: {#FFB47E}%exp%{#21BBFF}/{#FFB47E}%need_exp%",
+            "{#21BBFF}%gui.goodFish%: {#0BFF9F}%goodFish%",
+            "{#21BBFF}%gui.failedFish%: {#FF1D4B}%failedFish%",
+            "{#21BBFF}%gui.monsterCatch%: {#FF1D4B}%monsterCatch%",
+            "{#21BBFF}%gui.bigLootCatch%: {#FFC30E}%bigLootCatch%",
+            "{#21BBFF}%gui.custom_fishing%: {#FFB47E}%custom_fishing%"
+          ],
+          "pattern": "head"
+        },
+        {
+          "id": "3",
+          "lore": [
+            "%is_here%",
+            "%category_lore%"
+          ],
+          "pattern": "category"
+        },
+        {
+          "id": "0",
+          "displayName": " ",
+          "material": "LIGHT_BLUE_STAINED_GLASS_PANE"
+        }
+      ],
+      "map": [
+        "0 0 0 0 2 0 0 0 0",
+        "0 3 3 3 3 3 3 3 0",
+        "0 0 0 3 3 3 0 0 0",
+        "0 0 0 0 0 0 0 0 0"
+      ]
+    },
+    "shop": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "%gui.sell%: %amount%",
+      "icons": [
+        {
+          "id": "1",
+          "displayName": "§f%amount%",
+          "material": "PUFFERFISH_BUCKET",
+          "lore": [
+            "%gui.sell_action%"
+          ],
+          "pattern": "sell"
+        }
+      ],
+      "map": [
+        "0 0 0 0 0 0 0 0 0",
+        "0 0 0 0 0 0 0 0 0",
+        "0 0 0 0 1 0 0 0 0"
+      ]
+    },
+    "categoryGui": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "%gui.catalog%: %player_name% %page%",
+      "icons": [
+        {
+          "id": "1",
+          "displayName": "§f%gui.back%",
+          "material": "BLACK_STAINED_GLASS_PANE",
+          "pattern": "back"
+        },
+        {
+          "id": "3",
+          "displayName": "§f%gui.next%",
+          "material": "BLACK_STAINED_GLASS_PANE",
+          "pattern": "next"
+        },
+        {
+          "id": "2",
+          "displayName": "§f%name%",
+          "lore": [
+            "%rarity%",
+            "%level%",
+            "{#93cfec}%gui.goodFish%: {#FFB47E}%total_caught%",
+            "{#93cfec}%gui.chance%: {#FFB47E}%chance%%",
+            "{#93cfec}%gui.healthFish%: {#FFB47E}%health%",
+            "{#93cfec}%gui.exp%: {#FFB47E}%exp%",
+            "{#93cfec}%gui.maxWeight%: {#FFB47E}%max_size%",
+            "{#93cfec}%gui.minWeight%: {#FFB47E}%min_size%",
+            "%bait%",
+            "{#FFB47E} ⁑ %bait_name%：{#E1A5E9}%bait_adder%%",
+            "%naturalModification%",
+            "{#FFB47E} ⁑ %condition_name% [{#93cfec}%condition%{#FFB47E}]: {#E1A5E9}%condition_adder%%",
+            "\n{#82A7C3}• %gui.server_maxWeight%: {#FFB47E}%server_max_size% {#E1A5E9}%best_player_name%",
+            "{#82A7C3}• %gui.server_caught%: {#FFB47E}%server_amount% {#E1A5E9}%amount_player_name%"
+          ],
+          "pattern": "item",
+          "data": {
+            "unknown": "§8???",
+            "unknown_item": "STRUCTURE_VOID",
+            "unknown_lore": "%rarity%\n%level%",
+            "naturalModification": "{#82A7C3}%gui.naturalModification%",
+            "bait": "{#82A7C3}%gui.bait%"
+          }
+        },
+        {
+          "id": "0",
+          "displayName": " ",
+          "material": "LIGHT_BLUE_STAINED_GLASS_PANE"
+        }
+      ],
+      "map": [
+        "0 0 0 0 0 0 0 0 0",
+        "0 2 2 2 2 2 2 2 0",
+        "0 2 2 2 2 2 2 2 0",
+        "1 0 0 0 0 0 0 0 3"
+      ]
+    }
+  }
+}
